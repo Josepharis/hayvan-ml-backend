@@ -1,0 +1,42 @@
+{
+  "model_type": "Random Forest",
+  "performance": {
+    "train_r2": 0.9909061764734852,
+    "test_r2": 0.9685556608127657,
+    "train_mae": 0.02705316104917071,
+    "test_mae": 0.051887624442411365
+  },
+  "features": [
+    "yasAy",
+    "kilo",
+    "gogusEevresi",
+    "saglik_encoded",
+    "cinsiyet_encoded",
+    "boy",
+    "yemMiktari",
+    "irk_Simental",
+    "irk_Siyah Alaca",
+    "irk_Şarole",
+    "irk_Yerli Kara",
+    "irk_Esmer"
+  ],
+  "feature_importance": {
+    "yasAy": 0.4117863641511797,
+    "kilo": 0.33676757171561994,
+    "gogusEevresi": 0.12883298111006716,
+    "saglik_encoded": 0.056043750900197746,
+    "cinsiyet_encoded": 0.028125074631905833,
+    "irk_Esmer": 0.00910935996344663,
+    "irk_Yerli Kara": 0.00776109326463179,
+    "boy": 0.006712369699531929,
+    "yemMiktari": 0.006151981509835001,
+    "irk_Simental": 0.0050382156386952846,
+    "irk_Siyah Alaca": 0.001989279347861467,
+    "irk_Şarole": 0.001681958067027505
+  },
+  "data_info": {
+    "total_samples": 8024,
+    "train_samples": 6419,
+    "test_samples": 1605
+  }
+}

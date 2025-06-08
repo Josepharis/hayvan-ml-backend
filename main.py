@@ -163,7 +163,7 @@ async def predict_growth(request: PredictionRequest):
         
         print(f"🔮 RANDOM FOREST ile {target_months} aylık tahmin yapılıyor...")
         
-        current_weight = request.current_weight
+    current_weight = request.current_weight
         
         for month in range(1, target_months + 1):
             future_age_months = (request.age_years * 12) + month
